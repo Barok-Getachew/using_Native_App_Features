@@ -1,21 +1,21 @@
 import 'dart:io';
 
-class placeLocation {
+class PlaceLocation {
   final double latitude;
   final double longtude;
   final String adress;
 
-  placeLocation(
+  PlaceLocation(
       {required this.latitude, required this.longtude, required this.adress});
 }
 
-class place {
+class Place {
   final String id;
   final String title;
   final File image;
-  final placeLocation location;
+  final PlaceLocation? location;
 
-  place(
+  Place(
       {required this.id,
       required this.image,
       required this.location,

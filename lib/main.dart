@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         return placeProvider();
       },
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.purple,
